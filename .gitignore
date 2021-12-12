@@ -1,0 +1,12 @@
+src/*
+!src/.gitkeep
+config/dhparam/*
+!config/dhparam/.gitkeep
+config/nginx/sites-enabled/*
+!config/nginx/sites-enabled/.gitkeep
+config/mariadb/backups/*
+!config/mariadb/backups/.gitkeep
+.env
+config/nginx/nginx.conf
+config/php/zz-docker.conf
+config/certbot/ssl_renew.sh
